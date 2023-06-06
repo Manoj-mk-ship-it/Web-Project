@@ -1,0 +1,289 @@
+.div1{width:100%;
+    height:32%;
+  background-image:url("kaneki.png");}
+  .bo1{background-color:black;}
+  .but1{
+    background-color: transparent;
+    background-image: linear-gradient(to bottom,rgba(250,0,0,0),red);
+    border: none;
+    border-radius: 12px;
+    color: white;
+    font-family: Georgia, serif;
+    padding: 10px 25px; 
+    text-decoration: none;
+    display: inline-block;
+    font-size: 17px;
+    cursor: pointer;
+    margin:1%;
+    }
+  .but2{background-color: transparent;
+  border: none;
+  background-image: linear-gradient(to top,rgba(250,0,0,0),pink);
+  border-radius: 12px;
+  font-family: Georgia, serif;
+  color: white;
+  padding: 10px 25px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 17px;
+  cursor: pointer;
+  }
+  .but3{background-color: transparent;
+    background-image: linear-gradient(to top,rgba(250,0,0,0),pink);
+  border: none;
+  border-radius: 12px;
+  font-family: Georgia, serif;
+  color: white;
+  padding: 10px 25px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 17px;
+  margin:1%;
+  cursor: pointer;}
+  .but4{background-color: transparent;
+    background-image: linear-gradient(to top,rgba(250,0,0,0),pink);
+  border: none;
+  border-radius: 12px;
+  font-family: Georgia, serif;
+  color: white;
+  padding: 10px 25px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 17px;
+  text-align: right;
+  margin-left: 1% ;
+  cursor: pointer;}
+  .but5{background-color: transparent;
+    background-image: linear-gradient(to top,rgba(250,0,0,0),pink);
+  border: none;
+  border-radius: 12px;
+  font-family: Georgia, serif;
+  color: white;
+  padding: 10px 25px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 17px;
+  margin-left: 1%;
+  text-align: right;
+  cursor: pointer;}
+  .but6{background-color: transparent;
+    background-image: linear-gradient(to top,rgba(250,0,0,0),pink);
+  border: none;
+  border-radius: 12px;
+  font-family: Georgia, serif;
+  color: white;
+  padding: 10px 25px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 17px;
+  text-align: right;
+  cursor: pointer;
+  margin-left: 1%;}
+  .but7{background-color: transparent;
+    background-image: linear-gradient(to top,rgba(250,0,0,0),pink);
+  border: none;
+  border-radius: 12px;
+  font-family: Georgia, serif;
+  color: white;
+  padding: 10px 25px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 17px;
+  text-align: right;
+  cursor: pointer;
+  margin-left: 1%;}
+  .but1:hover {background-color: pink}
+  .but2:hover {background-color: red}
+  .but3:hover {background-color: red} 
+  .but4:hover {background-color: red}
+  .but5:hover {background-color: red}
+  .but6:hover {background-color: red}
+  .but7:hover {background-color: red}
+
+  /*.anch1{
+    font-size: 21px;
+    height:2%;
+    margin-left:14%;
+    margin-right:auto;
+    width:7%;
+    padding: 10px 25px;
+    display: inline-block;
+    background-color: wheat;
+    font-weight: 700;
+    text-decoration:none;
+  }*/
+  .headiv1{
+    height: 53%;
+    width: 72%;
+    margin-left:auto;
+    margin-right:auto;
+    background-color: transparent;
+    transition: transform 0.5s ease-out;
+  }
+  .div2{width:26%;
+    height:28.5%;
+  margin-top: 3%;
+}
+.text1{
+  position: absolute;
+  top: 59.7%;
+  font-family: Georgia, serif;
+  padding: 10px 25px;
+  background-color: transparent;
+  font-size: 21px;
+  color:white;
+  font-weight: 700;
+  visibility: hidden;
+  background-image: linear-gradient(to top,rgba(250,0,0,0),black);
+  opacity: 0;
+  transition: opacity 0.3s;
+  cursor: pointer;
+}
+.div2:hover .text1 {
+  visibility: visible;
+  opacity: 1;
+}
+  .airimg1{
+    height: 190px;
+    width: 360px;
+    border-radius: 30px;
+  }
+  .div3{width:26%;
+    height:28.5%;
+    margin-left:33.5%;
+    margin-right: auto;
+    margin-top: -10.1%;
+  }
+  .airimg2{
+    height: 190px;
+    width: 360px;
+    border-radius: 30px;
+  }
+  .div4{width:26%;
+    height:28.5%;
+    margin-left:67%;
+    margin-right: auto;
+    margin-top: -10.1%;}
+  .airimg3{
+    height: 190px;
+    width: 360px;
+    border-radius: 30px;
+  }
+  .div5{width:26%;
+    height:28.5%;
+  margin-top: 7.9%;}
+  .airimg4{
+    height: 190px;
+    width: 360px;
+    border-radius: 30px;
+  }
+  .div6{width:26%;
+    height:28.5%;
+    margin-left:33.5%;
+    margin-right: auto;
+    margin-top: -10.1%;}
+  .airimg5{
+    height: 190px;
+    width: 360px;
+    border-radius: 30px;
+  }
+  .div7{width:26%;
+    height:28.5%;
+    margin-left:67%;
+    margin-right: auto;
+    margin-top: -10.1%;}
+  .airimg6{
+    height: 190px;
+    width: 360px;
+    border-radius: 30px;
+  }
+  .leftslide1{
+    margin-top: -11.5%;
+    cursor: pointer;
+    display: none;
+  }
+  .rightslide1{
+    margin-top: -11.5%;
+    margin-left: 98%;
+    cursor: pointer;
+    display: none;
+  }
+
+
+  .headiv2{
+    height: 53%;
+    width: 72%;
+    margin-left:auto;
+    margin-right:auto;
+    background-color: transparent;
+    transition: transform 4s ease-out;
+    display: none;
+  }
+  .div8{width:26%;
+    height:28.5%;
+  margin-top: 3%;}
+  .airimg7{
+    height: 190px;
+    width: 360px;
+    border-radius: 30px;
+  }
+  .div9{width:26%;
+    height:28.5%;
+    margin-left:33.5%;
+    margin-right: auto;
+    margin-top: -10.1%;
+  }
+  .airimg8{
+    height: 190px;
+    width: 360px;
+    border-radius: 30px;
+  }
+  .div10{width:26%;
+    height:28.5%;
+    margin-left:67%;
+    margin-right: auto;
+    margin-top: -10.1%;}
+  .airimg9{
+    height: 190px;
+    width: 360px;
+    border-radius: 30px;
+  }
+  .div11{width:26%;
+    height:28.5%;
+  margin-top: 7.9%;}
+  .airimg10{
+    height: 190px;
+    width: 360px;
+    border-radius: 30px;
+  }
+  .div12{width:26%;
+    height:28.5%;
+    margin-left:33.5%;
+    margin-right: auto;
+    margin-top: -10.1%;}
+  .airimg11{
+    height: 190px;
+    width: 360px;
+    border-radius: 30px;
+  }
+  .div13{width:26%;
+    height:28.5%;
+    margin-left:67%;
+    margin-right: auto;
+    margin-top: -10.1%;}
+  .airimg12{
+    height: 190px;
+    width: 360px;
+    border-radius: 30px;
+  }
+  .leftslide2{
+    margin-top: -11.5%;
+    cursor: pointer;
+    display: none;
+  }
+  .rightslide2{
+    margin-top: -11.5%;
+    margin-left: 98%;
+    cursor: pointer;
+    display: none;
+  }
