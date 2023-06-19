@@ -126,7 +126,7 @@
 }
 .text1{
   position: absolute;
-  top: 59.7%;
+  top: 60.2%;
   font-family: Georgia, serif;
   padding: 10px 25px;
   background-color: transparent;
@@ -139,16 +139,225 @@
   transition: opacity 0.3s;
   cursor: pointer;
 }
+.text2{
+  position: absolute;
+  top: 60.2%;
+  font-family: Georgia, serif;
+  padding: 10px 25px;
+  background-color: transparent;
+  font-size: 21px;
+  color:white;
+  font-weight: 700;
+  visibility: hidden;
+  background-image: linear-gradient(to top,rgba(250,0,0,0),black);
+  opacity: 0;
+  transition: opacity 0.3s;
+  cursor: pointer;
+}
+.text3{
+  position: absolute;
+  top: 60.2%;
+  font-family: Georgia, serif;
+  padding: 10px 25px;
+  background-color: transparent;
+  font-size: 21px;
+  color:white;
+  font-weight: 700;
+  visibility: hidden;
+  background-image: linear-gradient(to top,rgba(250,0,0,0),black);
+  opacity: 0;
+  transition: opacity 0.3s;
+  cursor: pointer;
+}
+.text4{
+  position: absolute;
+  top: 87%;
+  font-family: Georgia, serif;
+  padding: 10px 25px;
+  background-color: transparent;
+  font-size: 21px;
+  color:white;
+  font-weight: 700;
+  background-image: linear-gradient(to top,rgba(250,0,0,0),black);
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s;
+  cursor: pointer;
+}
+.text5{
+  position: absolute;
+  top: 87%;
+  font-family: Georgia, serif;
+  padding: 10px 25px;
+  background-color: transparent;
+  font-size: 21px;
+  color:white;
+  font-weight: 700;
+  background-image: linear-gradient(to top,rgba(250,0,0,0),black);
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s;
+  cursor: pointer;
+}
+.text6{
+  position: absolute;
+  top: 87%;
+  font-family: Georgia, serif;
+  padding: 10px 25px;
+  background-color: transparent;
+  font-size: 21px;
+  color:white;
+  font-weight: 700;
+  background-image: linear-gradient(to top,rgba(250,0,0,0),black);
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s;
+  cursor: pointer;
+}
+.text7{
+  position: absolute;
+  top: 60.2%;
+  font-family: Georgia, serif;
+  padding: 10px 25px;
+  background-color: transparent;
+  font-size: 21px;
+  color:white;
+  font-weight: 700;
+  visibility: hidden;
+  background-image: linear-gradient(to top,rgba(250,0,0,0),black);
+  opacity: 0;
+  transition: opacity 0.3s;
+  cursor: pointer;
+}
+.text8{
+  position: absolute;
+  top: 60.2%;
+  font-family: Georgia, serif;
+  padding: 10px 25px;
+  background-color: transparent;
+  font-size: 21px;
+  color:white;
+  font-weight: 700;
+  visibility: hidden;
+  background-image: linear-gradient(to top,rgba(250,0,0,0),black);
+  opacity: 0;
+  transition: opacity 0.3s;
+  cursor: pointer;
+}
+.text9{
+  position: absolute;
+  top: 60.2%;
+  font-family: Georgia, serif;
+  padding: 10px 25px;
+  background-color: transparent;
+  font-size: 21px;
+  color:white;
+  font-weight: 700;
+  visibility: hidden;
+  background-image: linear-gradient(to top,rgba(250,0,0,0),black);
+  opacity: 0;
+  transition: opacity 0.3s;
+  cursor: pointer;
+}
+.text10{
+  position: absolute;
+  top: 87%;
+  font-family: Georgia, serif;
+  padding: 10px 25px;
+  background-color: transparent;
+  font-size: 21px;
+  color:white;
+  font-weight: 700;
+  background-image: linear-gradient(to top,rgba(250,0,0,0),black);
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s;
+  cursor: pointer;
+}
+.text11{
+  position: absolute;
+  top: 87%;
+  font-family: Georgia, serif;
+  padding: 10px 25px;
+  background-color: transparent;
+  font-size: 21px;
+  color:white;
+  font-weight: 700;
+  background-image: linear-gradient(to top,rgba(250,0,0,0),black);
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s;
+  cursor: pointer;
+}
+.text12{
+  position: absolute;
+  top: 87%;
+  font-family: Georgia, serif;
+  padding: 10px 25px;
+  background-color: transparent;
+  font-size: 21px;
+  color:white;
+  font-weight: 700;
+  background-image: linear-gradient(to top,rgba(250,0,0,0),black);
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s;
+  cursor: pointer;
+}
 .div2:hover .text1 {
   visibility: visible;
   opacity: 1;
 }
-  .airimg1{
+.div3:hover .text2 {
+  visibility: visible;
+  opacity: 1;
+}
+.div4:hover .text3 {
+  visibility: visible;
+  opacity: 1;
+}
+.div5:hover .text4 {
+  visibility: visible;
+  opacity: 1;
+}
+.div6:hover .text5 {
+  visibility: visible;
+  opacity: 1;
+}
+.div7:hover .text6 {
+  visibility: visible;
+  opacity: 1;
+}
+.div8:hover .text7 {
+  visibility: visible;
+  opacity: 1;
+}
+.div9:hover .text8 {
+  visibility: visible;
+  opacity: 1;
+}
+.div10:hover .text9 {
+  visibility: visible;
+  opacity: 1;
+}
+.div11:hover .text10 {
+  visibility: visible;
+  opacity: 1;
+}
+.div12:hover .text11 {
+  visibility: visible;
+  opacity: 1;
+}
+.div13:hover .text12 {
+  visibility: visible;
+  opacity: 1;
+}
+.airimg1{
     height: 190px;
     width: 360px;
     border-radius: 30px;
   }
-  .div3{width:26%;
+.div3{width:26%;
     height:28.5%;
     margin-left:33.5%;
     margin-right: auto;
