@@ -1,0 +1,145 @@
+.bo1{
+    background-image: url("log1.png");
+    background-size: cover;
+}
+.bo1::after {
+    content: "";
+    background-color: rgba(10, 10, 10, 0.2);
+    background-attachment: fixed;
+    position: absolute;
+    top: 0;
+    right: 35%;
+    bottom: 0;
+    left: 0;
+}
+.login{
+    position: absolute;
+    height: 70%;
+    width: 30%;
+    top: 10%;
+    left: 65%;
+    background-color: rgb(59, 57, 57);
+}
+.info{
+    position: absolute;
+    left: 4%;
+    color: white;
+}
+.user{
+    position: absolute;
+    left: 7%;
+    top: 11%;
+    color: white;
+}
+.username{
+    position: absolute;
+    left: 9%;
+    top: 22%;
+    height: 8%;
+    width: 70%;
+    border-radius: 8px;
+    border-color: rgb(38, 37, 37);
+}
+.pass{
+    position: absolute;
+    left: 7%;
+    top: 35%;
+    color: white;
+}
+.password{
+    position: absolute;
+    left: 9%;
+    top: 47%;
+    height: 8%;
+    width: 70%;
+    border-radius: 8px;
+}
+.sub{
+    position: absolute;
+    top: 66%;
+    left: 12%;
+    height: 8%;
+    width: 75%;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    background-color: #037b4f;
+    cursor: pointer;
+}
+.signup{
+    position: absolute;
+    top: 80%;
+    left: 27%;
+    color: white;
+}
+.newacc{
+    color: green;
+    cursor: pointer;
+}
+
+
+.signupdiv{
+    position: absolute;
+    height: 70%;
+    width: 30%;
+    top: 10%;
+    left: 65%;
+    background-color: rgb(59, 57, 57);
+    display: none;
+}
+.sinfo{
+    position: absolute;
+    left: 4%;
+    color: white;
+}
+.suser{
+    position: absolute;
+    left: 7%;
+    top: 11%;
+    color: white;
+}
+.susername{
+    position: absolute;
+    left: 9%;
+    top: 22%;
+    height: 8%;
+    width: 70%;
+    border-radius: 8px;
+    border-color: rgb(38, 37, 37);
+}
+.spass{
+    position: absolute;
+    left: 7%;
+    top: 35%;
+    color: white;
+}
+.spassword{
+    position: absolute;
+    left: 9%;
+    top: 47%;
+    height: 8%;
+    width: 70%;
+    border-radius: 8px;
+}
+.ssub{
+    position: absolute;
+    top: 66%;
+    left: 12%;
+    height: 8%;
+    width: 75%;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    background-color: #037b4f;
+    cursor: pointer;
+}
+.slogin{
+    position: absolute;
+    top: 80%;
+    left: 25%;
+    color: white;
+}
+.existacc{
+    color: green;
+    cursor: pointer;
+}

@@ -1,0 +1,30 @@
+<html>
+    <head><title>Login/Register to proceed</title></head>
+    <script src = "jquery-3.7.0.min.js"></script>
+    <body class="bo1">
+    </body>
+    <div class="login">
+        <form action="auth.php" method="post">
+            <h2 class="info">Log In</h2>
+            <h3 class="user">Username</h3>
+            <input type="text" class="username" name="username">
+            <h3 class="pass">Password</h3>
+            <input type="password" class="password" name="password">
+            <input type="submit" value="Log in" class="sub" name="login">
+            <h4 class="signup">Need an Account? <span class="newacc">Sign Up</span></h4>
+        </form>
+    </div>
+    <div class="signupdiv">
+        <form action="reg.php" method="post">
+            <h2 class="sinfo">Sign Up</h2>
+            <h3 class="suser">Username</h3>
+            <input type="text" class="susername" name="username">
+            <h3 class="spass">Password</h3>
+            <input type="password" class="spassword" name="password">
+            <input type="submit" value="Sign Up" class="ssub" name="signup">
+            <h4 class="slogin">Already Have an Account? <span class="existacc">Log in</span></h4>
+        </form>
+    </div>
+    <link rel="stylesheet" href="auth.css">
+    <script src= "auth.js"></script>
+</html>

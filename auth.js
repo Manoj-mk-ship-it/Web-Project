@@ -1,0 +1,10 @@
+$(document).ready(function(){
+    $(".newacc").click(function(){
+        $(".login").hide();
+        $(".signupdiv").show();
+    });
+    $(".existacc").click(function(){
+        $(".signupdiv").hide();
+        $(".login").show();
+    });
+});
