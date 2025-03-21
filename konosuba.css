@@ -1,0 +1,371 @@
+.div1{width:100%;
+    height:32%;
+  background-image: linear-gradient(to bottom,black,rgba(250,0,0,0),black);}
+  .bo1{
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url("konosuba.jpg");}
+  .bo1::after {
+    content: "";
+    background-color: rgba(0, 0, 0, 0.2);
+    background-attachment: fixed;
+    position: absolute;
+    top: 32%;
+    right: 0;
+    bottom: 0;
+    left: 0;}
+  .but1{
+    background-color: transparent;
+    border: none;
+    border-radius: 12px;
+    color: white;
+    font-family: Georgia, serif;
+    padding: 10px 25px; 
+    text-decoration: none;
+    display: inline-block;
+    font-size: 17px;
+    cursor: pointer;
+    margin:1%;
+    }
+  .but2{background-color: transparent;
+  border: none;
+  border-radius: 12px;
+  font-family: Georgia, serif;
+  color: white;
+  padding: 10px 25px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 17px;
+  cursor: pointer;
+  }
+  .but3{background-color: transparent;
+  border: none;
+  border-radius: 12px;
+  font-family: Georgia, serif;
+  color: white;
+  padding: 10px 25px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 17px;
+  margin:1%;
+  cursor: pointer;}
+  .but4{background-color: transparent;
+  border: none;
+  border-radius: 12px;
+  font-family: Georgia, serif;
+  color: white;
+  padding: 10px 25px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 17px;
+  text-align: right;
+  margin-left: 1% ;
+  cursor: pointer;}
+  .but5{background-color: transparent;
+  border: none;
+  border-radius: 12px;
+  font-family: Georgia, serif;
+  color: white;
+  padding: 10px 25px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 17px;
+  margin-left: 1%;
+  text-align: right;
+  cursor: pointer;}
+  .but6{background-color: transparent;
+  border: none;
+  border-radius: 12px;
+  font-family: Georgia, serif;
+  color: white;
+  padding: 10px 25px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 17px;
+  text-align: right;
+  cursor: pointer;
+  margin-left: 1%;}
+  .but7{background-color: transparent;
+  border: none;
+  border-radius: 12px;
+  font-family: Georgia, serif;
+  color: white;
+  padding: 10px 25px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 17px;
+  text-align: right;
+  cursor: pointer;
+  margin-left: 1%;}
+
+  .but1:hover {background-image: linear-gradient(to top,#9f040e,rgba(250,0,0,0),rgba(250,0,0,0),rgba(250,0,0,0),#9f040e);}
+  .but2:hover {background-image: linear-gradient(to top,#9f040e,rgba(250,0,0,0),rgba(250,0,0,0),rgba(250,0,0,0),#9f040e);}
+  .but3:hover {background-image: linear-gradient(to top,#9f040e,rgba(250,0,0,0),rgba(250,0,0,0),rgba(250,0,0,0),#9f040e);} 
+  .but4:hover {background-image: linear-gradient(to top,#9f040e,rgba(250,0,0,0),rgba(250,0,0,0),rgba(250,0,0,0),#9f040e);}
+  .but5:hover {background-image: linear-gradient(to top,#9f040e,rgba(250,0,0,0),rgba(250,0,0,0),rgba(250,0,0,0),#9f040e);}
+  .but6:hover {background-image: linear-gradient(to top,#9f040e,rgba(250,0,0,0),rgba(250,0,0,0),rgba(250,0,0,0),#9f040e);}
+  .but7:hover {background-image: linear-gradient(to top,#9f040e,rgba(250,0,0,0),rgba(250,0,0,0),rgba(250,0,0,0),#9f040e);}
+
+  .swipe {
+    position: absolute;
+    bottom: 110px;
+    left: 44%;
+    font-size: 130%;
+    color: white;
+    animation: change 1s infinite;
+  }
+  @keyframes change {
+    25%{
+      color: red;
+    }
+    60%{
+      color: blue;
+    }
+    95%{
+      color: yellow;
+    }
+  }
+  .scroll-down-button1 {
+    position: absolute;
+    bottom: 55px;
+    right: 50%;
+    transform: translateX(-50%);
+    z-index: 999;
+  }
+  .scroll-down-button2 {
+    position: absolute;
+    bottom: 75px;
+    right: 50%;
+    transform: translateX(-50%);
+    z-index: 999;
+  }
+  .scroll-down-button3 {
+    position: absolute;
+    bottom: 95px;
+    right: 50%;
+    transform: translateX(-50%);
+    z-index: 999;
+  }
+  
+  .arrow1 {
+    width: 30px;
+    height: 30px;
+    border: solid white;
+    border-width: 0 4px 4px 0;
+    display: inline-block;
+    transform: rotate(45deg);
+    animation: arrowBlink1 1s infinite;
+  }
+  .arrow2 {
+    width: 30px;
+    height: 30px;
+    border: solid white;
+    border-width: 0 4px 4px 0;
+    display: inline-block;
+    transform: rotate(45deg);
+    animation: arrowBlink2 1s infinite;
+  }
+  .arrow3 {
+    width: 30px;
+    height: 30px;
+    border: solid white;
+    border-width: 0 4px 4px 0;
+    display: inline-block;
+    transform: rotate(45deg);
+    animation: arrowBlink3 1s infinite;
+  }
+  @keyframes arrowBlink1 {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @keyframes arrowBlink2 {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  @keyframes arrowBlink3 {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+
+  .details{
+    position: absolute;
+    height: 185%;
+    width: 78%;
+    background-color: rgb(58, 57, 57);
+    top: 130%;
+    left: 11%;
+    border-radius: 16px;
+  }
+  .content{
+    position: absolute;
+    height: 90%;
+    width: 90%;
+    background-color: rgb(33, 32, 32);
+    border-radius: 16px;
+    left: 5%;
+    top: 5%;
+  }
+  .animename{
+    position: absolute;
+    left: 3%;
+    top: 3%;
+    color: white;
+  }
+  .line1 {
+    stroke: white;
+    stroke-width: 2px;
+  }
+  .line2{
+    stroke: rgb(65, 63, 63);
+    stroke-width: 2px;
+  }
+  .line{
+    position: absolute;
+    top: 10%;
+    left: 49.8%;
+    transform: translate(-50%, -50%);
+  }
+  .story{
+    position: absolute;
+    color: white;
+    font-size: large;
+    padding: 50px;
+    top: -14%;
+    line-height: 1.8;
+  }
+  .storydiv{
+    position: relative;
+    top: 15%;
+    left: 5%;
+    border: rgb(62, 61, 61);
+    border-width: 1px;
+    border-style:solid;
+    border-radius: 5px;
+    height: 27%;
+    width: 90%;
+  }
+  .info{
+    position: absolute;
+    color: white;
+    font-size: large;
+    padding: 50px;
+    top: -16%;
+    line-height: 1.8;
+  }
+  .infodiv{
+    position: relative;
+    top: 22%;
+    left: 5%;
+    border: rgb(62, 61, 61);
+    border-width: 1px;
+    border-style:solid;
+    border-radius: 5px;
+    height: 30%;
+    width: 50%;
+  }
+  
+  .down{
+    position: absolute;
+    left: 3%;
+    top: 82%;
+    color: white;
+  }
+  .downline{
+    position: absolute;
+    top: 89%;
+    left: 49.8%;
+    transform: translate(-50%, -50%);
+  }
+  .downline1 {
+    stroke: white;
+    stroke-width: 2px;
+  }
+  .downline2{
+    stroke: rgb(65, 63, 63);
+    stroke-width: 2px;
+  }
+  .season1{
+    position: absolute;
+    background-color: rgb(2, 77, 2);
+    border: none;
+    border-radius: 12px;
+    font-family: Monaco;
+    color: white;
+    padding: 10px 25px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 17px;
+    text-align: right;
+    top: 92%;
+    left: 3% ;
+    cursor: pointer;
+}
+.season2{
+    position: absolute;
+    background-color: rgb(4, 4, 80);
+    border: none;
+    border-radius: 12px;
+    font-family: Monaco;
+    color: white;
+    padding: 10px 25px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 17px;
+    text-align: right;
+    top: 92%;
+    left: 21% ;
+    cursor: pointer;
+}
+.movie{
+    position: absolute;
+    background-color: rgb(100, 68, 8);
+    border: none;
+    border-radius: 12px;
+    font-family: Monaco;
+    color: white;
+    padding: 10px 25px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 17px;
+    text-align: right;
+    top: 92%;
+    left: 39% ;
+    cursor: pointer;
+}
+.season3{
+    position: absolute;
+    background-color: rgb(237, 12, 53);
+    border: none;
+    border-radius: 12px;
+    font-family: Monaco;
+    color: white;
+    padding: 10px 25px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 17px;
+    text-align: right;
+    top: 92%;
+    left: 50% ;
+    cursor: pointer;
+}
