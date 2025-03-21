@@ -1,0 +1,128 @@
+.bo1{
+    background-image: url(catbg1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.div1{
+    height: 50%;
+    width: 30%;
+    background-color: rgb(79, 77, 77);
+    position: absolute;
+    left: 20%;
+    top: 15%;
+    border-radius: 10px;
+}
+.info{
+    position: absolute;
+    left: 4%;
+    color: white;
+}
+.namehead{
+    position: absolute;
+    left: 7%;
+    top: 15%;
+    color: white;
+}
+.name{
+    position: absolute;
+    left: 9%;
+    top: 30%;
+    height: 11%;
+    width: 70%;
+    border-radius: 8px;
+    border-color: rgb(38, 37, 37);
+}
+.sub{
+    position: absolute;
+    top: 60%;
+    left: 12%;
+    height: 11%;
+    width: 75%;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    background-color: #037b4f;
+    cursor: pointer;
+}
+.showaadh{
+    position: absolute;
+    top: 75%;
+    left: 25%;
+    color: white;
+}
+.aadetails{
+    color: green;
+    cursor: pointer;
+}
+.div2{
+    height: 50%;
+    width: 30%;
+    background-color: rgb(79, 77, 77);
+    position: absolute;
+    left: 20%;
+    top: 15%;
+    border-radius: 10px;
+    display: none;
+}
+.info1{
+    position: absolute;
+    left: 4%;
+    color: white;
+}
+.aadhno{
+    position: absolute;
+    left: 7%;
+    top: 15%;
+    color: white;
+}
+.ano{
+    position: absolute;
+    left: 9%;
+    top: 30%;
+    height: 11%;
+    width: 70%;
+    border-radius: 8px;
+    border-color: rgb(38, 37, 37);
+}
+.sub1{
+    position: absolute;
+    top: 60%;
+    left: 12%;
+    height: 11%;
+    width: 75%;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    background-color: #037b4f;
+    cursor: pointer;
+}
+.showpers{
+    position: absolute;
+    top: 75%;
+    left: 25%;
+    color: white;
+}
+.pdetails{
+    color: green;
+    cursor: pointer;
+}
+/*.wantall{
+    color: white;
+}
+.div3{
+    position: absolute;
+    top: 70%;
+    left: 25%;
+}
+.wants{
+    position: absolute;
+    left: 100%;
+    bottom: 4%;
+    height: 11%;
+    width: 40%;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    background-color: #037b4f;
+    cursor: pointer;
+}*/

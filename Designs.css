@@ -16,7 +16,7 @@
     cursor: pointer;
     margin:1%;
     }
-  .but2{background-color: transparent;
+  /*.but2{background-color: transparent;
   border: none;
   background-image: linear-gradient(to top,rgba(250,0,0,0),pink);
   border-radius: 12px;
@@ -39,7 +39,38 @@
   display: inline-block;
   font-size: 17px;
   margin:1%;
-  cursor: pointer;}
+  cursor: pointer;}*/
+  ::placeholder {
+    color: white;
+    font-size: small;
+  }
+  .but2{
+    position: absolute;
+    left: 9%;
+    top: 3%;
+    background-color: transparent;
+    border-color: black;
+    width: 8%;
+    background-image: linear-gradient(to top,rgba(250,0,0,0),red);
+    border-radius: 12px;
+    color: white;
+    padding: 10px 25px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 17px;
+    }
+    .sub1{
+      position: absolute;
+      border: none;
+      top: 3%;
+      left: 18%;
+      height: 5%;
+      width: 5%;
+      border-radius: 8px;
+      background-color: transparent;
+      color: white;
+      background-image: linear-gradient(to top,rgba(250,0,0,0),pink);
+    }
   .but4{background-color: transparent;
     background-image: linear-gradient(to top,rgba(250,0,0,0),pink);
   border: none;
@@ -93,8 +124,8 @@
   cursor: pointer;
   margin-left: 1%;}
   .but1:hover {background-color: pink}
-  .but2:hover {background-color: red}
-  .but3:hover {background-color: red} 
+  /*.but2:hover {background-color: red}*/
+  .sub1:hover {background-color: red} 
   .but4:hover {background-color: red}
   .but5:hover {background-color: red}
   .but6:hover {background-color: red}
